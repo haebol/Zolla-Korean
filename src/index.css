@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Hakgyoansim Badasseugi';
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://cdn.jsdelivr.net/gh/fonts-archive/HakgyoansimBadasseugi/HakgyoansimBadasseugi-L.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Hakgyoansim Badasseugi';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://cdn.jsdelivr.net/gh/fonts-archive/HakgyoansimBadasseugi/HakgyoansimBadasseugi-B.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Hakgyoansim Badasseugi';
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://cdn.jsdelivr.net/gh/fonts-archive/HakgyoansimBadasseugi/HakgyoansimBadasseugi-B.woff2') format('woff2');
+}
+
+@layer base {
+  :root {
+    --font-korean-gothic: 'Gowun Dodum', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-game: 'Jua', sans-serif;
+    --font-mono-num: 'JetBrains Mono', monospace;
+    --font-badasseugi: 'Hakgyoansim Badasseugi', 'HakgyoansimBadasseugi', '학교안심 받아쓰기', '학교안심받아쓰기', 'Gaegu', 'Gowun Dodum', cursive, sans-serif;
+  }
+
+  body {
+    background-color: #FFFFFF;
+    color: #0F172A;
+    font-family: var(--font-korean-gothic);
+  }
+}
+
+.font-korean-gothic {
+  font-family: var(--font-korean-gothic);
+}
+
+.font-body {
+  font-family: var(--font-korean-gothic);
+}
+
+.font-game {
+  font-family: var(--font-game);
+}
+
+.font-mono-num {
+  font-family: var(--font-mono-num);
+  font-variant-numeric: tabular-nums;
+}
+
+.font-badasseugi {
+  font-family: var(--font-badasseugi);
+}

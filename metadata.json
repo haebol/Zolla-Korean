@@ -1,0 +1,8 @@
+{
+  "name": "해볼 한국어 동사활용 학습지 (Haebol Korean Verb Conjugation)",
+  "description": "다문화·초등 한국어 맞춤형 동사활용 1~20단원 학습지 및 인터랙티브 발음·쓰기 학습 시스템",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
